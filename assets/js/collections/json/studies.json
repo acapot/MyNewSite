@@ -1,0 +1,30 @@
+[
+	{
+		id:'1';
+		period:'23-34', 
+		place:'aca', 
+		details:'super bien', 
+		career:'medicine'
+	}
+	{
+		id:'2';
+		period:'23-34', 
+		place:'aca', 
+		details:'super bien', 
+		career:'medicine'
+	}
+	{
+		id:'3';
+		period:'23-34', 
+		place:'aca', 
+		details:'super bien', 
+		career:'medicine'
+	}
+	{
+		id:'4';
+		period:'23-34', 
+		place:'aca', 
+		details:'super bien', 
+		career:'medicine'
+	}
+]

@@ -1,0 +1,74 @@
+
+@charset "utf-8";
+
+
+#container, nav:first-child{ max-width:960px; min-width:320px; margin-left:auto; margin-right:auto;}
+.col { background-color: }
+.row{ background-color: }
+
+#photo{ width:100%; }
+.clear
+{ 
+	clear:both;
+}
+img{display:;}
+
+#personalInfo li{ text-align:center; line-height:35px; font-weight:bold}
+div>ul { padding-top:20px; padding-right:30px}
+div>span{ font-weight:bold; font-size:1.2em; position:relative; top:5px;  color:#563d7c !important }
+section{ width: 100%}
+
+section div{ margin-bottom:20px;}
+/*img{clear: both; width: 80%}*/
+h3, h2,h1{ line-height:10px !important;}
+div~span{ padding:60px}
+#hiddenCV { display: none}
+
+
+.showGraterImg{ background-size:cover; height:450px !important; border: outset #cccccc 2px; width: 100px; border:1px solid black;}
+
+.adminBtn, .adminBtn li{ margin: 0 !important; padding: 0}
+.adminBtn li{ margin: 0 !important; padding: 0; display: inline-block;}
+textarea { border: outset 1px black ; padding: 2px;}
+
+@media all and (min-width: 602px) and (max-width: 768px) {
+	#photo,#img_email {
+		display: block;
+	}
+	
+}
+
+
+#portfolio th { white-space: nowrap; cursor: pointer; }
+#portfolio th span, td form { display: inline-block; margin-left: 5px; }
+#portfolio th span { float: right !important;}
+#portfolio td form { cursor: pointer; }
+table{  border: 1px solid #BBBBBB !important; background-color: #EEEEEE !important}
+td, th{border: 1px solid #BBBBBB !important; padding: 3px !important}
+th{border: 2px solid #BBBBBB !important}
+tr:nth-child(even) {background: #DDDDDD}
+tr:nth-child(odd) {background: #EEEEEE}
+th{ text-align: center !important;}
+
+#portfolio [column="year"] { width: 5%; }
+#portfolio [column="title"] { width: 15%; }
+#portfolio [column="text"] { width: 60%; }
+#portfolio [column="buttons"] { width: 20%; }
+
+.icon-none { visibility: hidden; }
+
+/*@media all and (max-width: 601px) {
+	#photo,#img_email {
+		display: none;
+	}
+	
+	
+
+}
+
+@media all and (max-width: 480px) {
+	#photo,#img_email {
+		display: none;
+	}
+	
+}*/
